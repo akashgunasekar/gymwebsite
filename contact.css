@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.background {
+    width: 100%;
+    height: 700px;
+    background-image: url(./Asset/contact/herosection.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gridlayout {
+    width: 90%;
+    margin: auto;
+}
+
+.tittle {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.tittle img {
+    margin-top: 30px;
+}
+
+.simg {
+  position: relative;
+  top: 200px;
+}
+
+.menu {
+    
+    list-style-type: none;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+
+}
+
+.menu li {
+    padding: 30px;
+}
+
+
+.menu a {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+ }
+
+ .color{
+  color: #E6353B !important;
+ }
+
+
+.hero {
+    margin-top: 200px;
+    display: flex;
+    gap: 80px;
+}
+
+.hero img {
+    margin-top: 50px;
+}
+
+.words {
+  margin: auto;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.words h5 {
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.words h2 {
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+}
+
+/* deatils */
+
+.imgdiv{
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+/* contact */
+
+.gridlayout1{
+  width: 70%;
+  margin: auto;
+}
+
+.contact{
+  width: 100%;
+  height: 600px;
+  background-image: url(./Asset/img/contactbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:150px;
+}
+
+.cheading{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-top: 50px;
+  
+}
+.cheading h3{
+  color: #E6353B;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+.cheading h2 {
+  
+  width: 300px;
+  margin-top: 20px;
+}
+
+.direction{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  float: right;
+}
+ 
+
+
+
+.t1 ,.n1 {
+  margin-top: 20px;
+  padding: 10px 50px;
+  border-style: none;
+  border-radius: 5px;
+ background-color: white;
+}
+.e1{
+  margin-top: 20px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border-style: none;
+  }
+  .m1{
+    margin-top: 20px;
+  padding: 30px 50px;
+  border-radius: 5px;
+  border-style: none;
+  }
+  .sendbtn{
+padding: 10px 80px;
+background-color: #E6353B;
+color: white;
+margin-top: 20px;
+
+border-style: none;
+border-radius: 5px;
+
+  }
+
+
+    /* footer */
+
+  .footerbg{
+    width: 100%;
+    height: 400px;
+    background-image: url(./Asset/img/frtbgimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .ftlogo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: white;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .oneimg {
+  margin-top: 50px;
+  
+  }
+  .ftlogo p {
+    margin-top: 30px;
+  }
+  .twoimg{
+  margin-top: 20px;  
+  }
+  
+  .opeinghrs, .quicklinks, .contactus{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-top: 100px;
+  }
+    
+  .oph h5{
+    position: relative;
+    top: 10px;
+  }
+  .oph p {
+    font-size: 12px;
+    opacity: 50%;
+    padding: 5px 0px;
+    position: relative;
+    top: 20px;
+  }
+  
+  .ophh h5 {
+    position: relative;
+    top: 30px;
+  }
+  .ophh p {
+    font-size: 12px;
+    opacity: 50%;
+    padding: 5px 0px;
+    position: relative;
+    top: 35px;
+  }
+  
+  .quicklinks p{
+  
+    font-size: 12px;
+    opacity: 50%;
+    padding: 5px 0px;
+    position: relative;
+    top: 5px;
+  }
+  
+  .cot h5{
+   position: relative;
+    top: 10px;
+  }
+  .cot p {
+    font-size: 10px;
+    opacity: 50%;
+    padding: 5px 0px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .cott h5{
+    position: relative;
+    top: 10px;
+  }
+  .cott p {
+    font-size: 12px;
+    opacity: 50%;
+    padding: 5px 0px;
+    position: relative;
+    top: 10px;
+  }
+
+  @media screen and (max-width: 450px){
+
+
+    .tittle ,.menu, .hero, .cadrbackground, .oscardmain1, .oscardmain1, .pricing, .teamimgs, .inputfield, .mainbog1, .mainbog2, .footerbg, .oscardmain2 {
+      display: block;
+    }
+    .aboutbg{
+    display: none;
+   }
+   .footerbg{
+    width: 100%;
+    height: 900px;
+   }
+   .opeinghrs , .quicklinks, .contactus{
+    margin-left: 50px;
+    margin-top: 50px;
+   }
+   .mainbog1 , .mainbog2{
+    margin-left: 40px;
+   }
+   
+   .cheading{
+   
+    position: relative;
+    left: 0px;
+   }
+   .textfield{
+    
+    margin-left: 0px;
+    position: relative;
+    top: 100px;
+   }
+  
+   .tmg2, .tmg3{
+    display: none;
+   }
+   .tmg1{
+    margin-left: 40px;
+   }
+   .background{
+    height: 250px;
+   }
+   .tittle img{
+    width: 100px;
+   }
+   .menu li{
+    padding: 0px;
+   }
+  
+   .menu{
+    margin-top: -30px;
+    margin-left: 60px;
+   }
+   .menu a{
+    font-size: 12px;
+   }
+
+   
+  }
+  
